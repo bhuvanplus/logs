@@ -1,0 +1,175 @@
+24776 2023-07-17 12:04:07.866 debug2: fd 3 setting O_NONBLOCK
+24776 2023-07-17 12:04:07.866 debug3: sock_set_v6only: set socket 3 IPV6_V6ONLY
+24776 2023-07-17 12:04:07.866 debug1: Bind to port 22 on ::.
+24776 2023-07-17 12:04:07.866 Server listening on :: port 22.
+24776 2023-07-17 12:04:07.866 debug2: fd 4 setting O_NONBLOCK
+24776 2023-07-17 12:04:07.866 debug1: Bind to port 22 on 0.0.0.0.
+24776 2023-07-17 12:04:07.867 Server listening on 0.0.0.0 port 22.
+24776 2023-07-17 12:04:35.678 debug3: fd 5 is not O_NONBLOCK
+24776 2023-07-17 12:04:35.680 debug3: spawning "C:\\WINDOWS\\System32\\OpenSSH\\sshd.exe" -R as subprocess
+24776 2023-07-17 12:04:35.687 debug3: send_rexec_state: entering fd = 8 config len 369
+24776 2023-07-17 12:04:35.687 debug3: ssh_msg_send: type 0
+24776 2023-07-17 12:04:35.688 debug3: send_rexec_state: done
+9300 2023-07-17 12:04:35.720 debug1: inetd sockets after dupping: 4, 4
+9300 2023-07-17 12:04:35.720 Connection from ::1 port 50538 on ::1 port 22
+9300 2023-07-17 12:04:35.720 debug1: Local version string SSH-2.0-OpenSSH_for_Windows_8.6
+9300 2023-07-17 12:04:35.720 debug1: Remote protocol version 2.0, remote software version OpenSSH_for_Windows_8.6
+9300 2023-07-17 12:04:35.720 debug1: compat_banner: match: OpenSSH_for_Windows_8.6 pat OpenSSH* compat 0x04000000
+9300 2023-07-17 12:04:35.720 debug2: fd 4 setting O_NONBLOCK
+9300 2023-07-17 12:04:35.733 debug3: spawning "C:\\WINDOWS\\System32\\OpenSSH\\sshd.exe" -y as user
+9300 2023-07-17 12:04:35.742 debug2: Network child is on pid 14312
+9300 2023-07-17 12:04:35.742 debug3: send_rexec_state: entering fd = 6 config len 369
+9300 2023-07-17 12:04:35.742 debug3: ssh_msg_send: type 0
+9300 2023-07-17 12:04:35.742 debug3: send_rexec_state: done
+9300 2023-07-17 12:04:35.742 debug3: ssh_msg_send: type 0
+9300 2023-07-17 12:04:35.742 debug3: ssh_msg_send: type 0
+9300 2023-07-17 12:04:35.742 debug3: preauth child monitor started
+9300 2023-07-17 12:04:35.769 debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+9300 2023-07-17 12:04:35.769 debug3: send packet: type 20 [preauth]
+9300 2023-07-17 12:04:35.769 debug1: SSH2_MSG_KEXINIT sent [preauth]
+9300 2023-07-17 12:04:35.769 debug3: receive packet: type 20 [preauth]
+9300 2023-07-17 12:04:35.769 debug1: SSH2_MSG_KEXINIT received [preauth]
+9300 2023-07-17 12:04:35.769 debug2: local server KEXINIT proposal [preauth]
+9300 2023-07-17 12:04:35.769 debug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256 [preauth]
+9300 2023-07-17 12:04:35.769 debug2: host key algorithms: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+9300 2023-07-17 12:04:35.769 debug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+9300 2023-07-17 12:04:35.769 debug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+9300 2023-07-17 12:04:35.769 debug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+9300 2023-07-17 12:04:35.770 debug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+9300 2023-07-17 12:04:35.770 debug2: compression ctos: none,zlib@openssh.com [preauth]
+9300 2023-07-17 12:04:35.770 debug2: compression stoc: none,zlib@openssh.com [preauth]
+9300 2023-07-17 12:04:35.770 debug2: languages ctos:  [preauth]
+9300 2023-07-17 12:04:35.770 debug2: languages stoc:  [preauth]
+9300 2023-07-17 12:04:35.770 debug2: first_kex_follows 0  [preauth]
+9300 2023-07-17 12:04:35.770 debug2: reserved 0  [preauth]
+9300 2023-07-17 12:04:35.770 debug2: peer client KEXINIT proposal [preauth]
+9300 2023-07-17 12:04:35.770 debug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c [preauth]
+9300 2023-07-17 12:04:35.770 debug2: host key algorithms: ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,sk-ecdsa-sha2-nistp256@openssh.com,rsa-sha2-512,rsa-sha2-256,ssh-rsa [preauth]
+9300 2023-07-17 12:04:35.770 debug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+9300 2023-07-17 12:04:35.770 debug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+9300 2023-07-17 12:04:35.770 debug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+9300 2023-07-17 12:04:35.770 debug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+9300 2023-07-17 12:04:35.770 debug2: compression ctos: none,zlib@openssh.com,zlib [preauth]
+9300 2023-07-17 12:04:35.770 debug2: compression stoc: none,zlib@openssh.com,zlib [preauth]
+9300 2023-07-17 12:04:35.770 debug2: languages ctos:  [preauth]
+9300 2023-07-17 12:04:35.770 debug2: languages stoc:  [preauth]
+9300 2023-07-17 12:04:35.770 debug2: first_kex_follows 0  [preauth]
+9300 2023-07-17 12:04:35.770 debug2: reserved 0  [preauth]
+9300 2023-07-17 12:04:35.770 debug1: kex: algorithm: curve25519-sha256 [preauth]
+9300 2023-07-17 12:04:35.770 debug1: kex: host key algorithm: ssh-ed25519 [preauth]
+9300 2023-07-17 12:04:35.770 debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+9300 2023-07-17 12:04:35.770 debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+9300 2023-07-17 12:04:35.770 debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+9300 2023-07-17 12:04:35.771 debug3: receive packet: type 30 [preauth]
+9300 2023-07-17 12:04:35.771 debug1: SSH2_MSG_KEX_ECDH_INIT received [preauth]
+9300 2023-07-17 12:04:35.773 debug3: mm_sshkey_sign: entering [preauth]
+9300 2023-07-17 12:04:35.773 debug3: mm_request_send: entering, type 6 [preauth]
+9300 2023-07-17 12:04:35.773 debug3: mm_sshkey_sign: waiting for MONITOR_ANS_SIGN [preauth]
+9300 2023-07-17 12:04:35.773 debug3: mm_request_receive_expect: entering, type 7 [preauth]
+9300 2023-07-17 12:04:35.773 debug3: mm_request_receive: entering [preauth]
+9300 2023-07-17 12:04:35.773 debug3: mm_request_receive: entering
+9300 2023-07-17 12:04:35.773 debug3: monitor_read: checking request 6
+9300 2023-07-17 12:04:35.773 debug3: mm_answer_sign: entering
+9300 2023-07-17 12:04:35.774 debug3: mm_answer_sign: KEX signature 0000025F3E3AA3F0(83)
+9300 2023-07-17 12:04:35.774 debug3: mm_request_send: entering, type 7
+9300 2023-07-17 12:04:35.774 debug2: monitor_read: 6 used once, disabling now
+9300 2023-07-17 12:04:35.774 debug3: send packet: type 31 [preauth]
+9300 2023-07-17 12:04:35.774 debug3: send packet: type 21 [preauth]
+9300 2023-07-17 12:04:35.774 debug2: set_newkeys: mode 1 [preauth]
+9300 2023-07-17 12:04:35.774 debug1: rekey out after 134217728 blocks [preauth]
+9300 2023-07-17 12:04:35.774 debug1: SSH2_MSG_NEWKEYS sent [preauth]
+9300 2023-07-17 12:04:35.775 debug1: Sending SSH2_MSG_EXT_INFO [preauth]
+9300 2023-07-17 12:04:35.775 debug3: send packet: type 7 [preauth]
+9300 2023-07-17 12:04:35.775 debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+9300 2023-07-17 12:04:35.779 debug3: receive packet: type 21 [preauth]
+9300 2023-07-17 12:04:35.779 debug1: SSH2_MSG_NEWKEYS received [preauth]
+9300 2023-07-17 12:04:35.779 debug2: set_newkeys: mode 0 [preauth]
+9300 2023-07-17 12:04:35.779 debug1: rekey in after 134217728 blocks [preauth]
+9300 2023-07-17 12:04:35.779 debug1: KEX done [preauth]
+9300 2023-07-17 12:04:35.779 debug3: receive packet: type 5 [preauth]
+9300 2023-07-17 12:04:35.779 debug3: send packet: type 6 [preauth]
+9300 2023-07-17 12:04:35.779 debug3: receive packet: type 50 [preauth]
+9300 2023-07-17 12:04:35.779 debug1: userauth-request for user naras service ssh-connection method none [preauth]
+9300 2023-07-17 12:04:35.779 debug1: attempt 0 failures 0 [preauth]
+9300 2023-07-17 12:04:35.779 debug3: mm_getpwnamallow: entering [preauth]
+9300 2023-07-17 12:04:35.779 debug3: mm_request_send: entering, type 8 [preauth]
+9300 2023-07-17 12:04:35.779 debug3: mm_getpwnamallow: waiting for MONITOR_ANS_PWNAM [preauth]
+9300 2023-07-17 12:04:35.779 debug3: mm_request_receive_expect: entering, type 9 [preauth]
+9300 2023-07-17 12:04:35.779 debug3: mm_request_receive: entering [preauth]
+9300 2023-07-17 12:04:35.779 debug3: mm_request_receive: entering
+9300 2023-07-17 12:04:35.779 debug3: monitor_read: checking request 8
+9300 2023-07-17 12:04:35.779 debug3: mm_answer_pwnamallow: entering
+9300 2023-07-17 12:04:35.780 debug2: parse_server_config_depth: config reprocess config len 369
+9300 2023-07-17 12:04:35.780 debug3: checking match for 'Group administrators' user naras host ::1 addr ::1 laddr ::1 lport 22
+9300 2023-07-17 12:04:35.781 debug3: LsaLogonUser Succeeded (Impersonation: 0)
+9300 2023-07-17 12:04:35.781 debug1: user naras matched group list administrators at line 101
+9300 2023-07-17 12:04:35.781 debug3: match found
+9300 2023-07-17 12:04:35.781 debug3: reprocess config:102 setting AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
+9300 2023-07-17 12:04:35.782 debug3: mm_answer_pwnamallow: sending MONITOR_ANS_PWNAM: 1
+9300 2023-07-17 12:04:35.782 debug3: mm_request_send: entering, type 9
+9300 2023-07-17 12:04:35.782 debug2: monitor_read: 8 used once, disabling now
+9300 2023-07-17 12:04:35.782 debug2: input_userauth_request: setting up authctxt for naras [preauth]
+9300 2023-07-17 12:04:35.782 debug3: mm_inform_authserv: entering [preauth]
+9300 2023-07-17 12:04:35.783 debug3: mm_request_send: entering, type 4 [preauth]
+9300 2023-07-17 12:04:35.783 debug2: input_userauth_request: try method none [preauth]
+9300 2023-07-17 12:04:35.783 debug3: mm_auth_password: entering [preauth]
+9300 2023-07-17 12:04:35.783 debug3: mm_request_send: entering, type 12 [preauth]
+9300 2023-07-17 12:04:35.783 debug3: mm_auth_password: waiting for MONITOR_ANS_AUTHPASSWORD [preauth]
+9300 2023-07-17 12:04:35.783 debug3: mm_request_receive_expect: entering, type 13 [preauth]
+9300 2023-07-17 12:04:35.783 debug3: mm_request_receive: entering [preauth]
+9300 2023-07-17 12:04:35.783 debug3: mm_request_receive: entering
+9300 2023-07-17 12:04:35.783 debug3: monitor_read: checking request 4
+9300 2023-07-17 12:04:35.783 debug3: mm_answer_authserv: service=ssh-connection, style=
+9300 2023-07-17 12:04:35.783 debug2: monitor_read: 4 used once, disabling now
+9300 2023-07-17 12:04:35.783 debug3: mm_request_receive: entering
+9300 2023-07-17 12:04:35.783 debug3: monitor_read: checking request 12
+9300 2023-07-17 12:04:35.784 debug1: Windows authentication failed for user: naras domain: . error: 1326
+9300 2023-07-17 12:04:35.784 debug3: mm_answer_authpassword: sending result 0
+9300 2023-07-17 12:04:35.784 debug3: mm_answer_authpassword: sending result 0
+9300 2023-07-17 12:04:35.784 debug3: mm_request_send: entering, type 13
+9300 2023-07-17 12:04:35.784 Failed none for naras from ::1 port 50538 ssh2
+9300 2023-07-17 12:04:35.784 debug3: mm_auth_password: user not authenticated [preauth]
+9300 2023-07-17 12:04:35.785 debug3: user_specific_delay: user specific delay 0.000ms [preauth]
+9300 2023-07-17 12:04:35.785 debug3: ensure_minimum_time_since: elapsed 5.614ms, delaying 4.971ms (requested 5.293ms) [preauth]
+9300 2023-07-17 12:04:35.791 debug3: userauth_finish: failure partial=0 next methods="publickey,password,keyboard-interactive" [preauth]
+9300 2023-07-17 12:04:35.791 debug3: send packet: type 51 [preauth]
+9300 2023-07-17 12:04:35.792 debug3: receive packet: type 50 [preauth]
+9300 2023-07-17 12:04:35.792 debug1: userauth-request for user naras service ssh-connection method keyboard-interactive [preauth]
+9300 2023-07-17 12:04:35.792 debug1: attempt 1 failures 0 [preauth]
+9300 2023-07-17 12:04:35.792 debug2: input_userauth_request: try method keyboard-interactive [preauth]
+9300 2023-07-17 12:04:35.792 debug1: keyboard-interactive devs  [preauth]
+9300 2023-07-17 12:04:35.792 debug1: auth2_challenge: user=naras devs= [preauth]
+9300 2023-07-17 12:04:35.792 debug1: kbdint_alloc: devices '' [preauth]
+9300 2023-07-17 12:04:35.792 debug2: auth2_challenge_start: devices  [preauth]
+9300 2023-07-17 12:04:35.792 debug3: user_specific_delay: user specific delay 0.000ms [preauth]
+9300 2023-07-17 12:04:35.792 debug3: ensure_minimum_time_since: elapsed 0.000ms, delaying 5.293ms (requested 5.293ms) [preauth]
+9300 2023-07-17 12:04:35.798 debug3: userauth_finish: failure partial=0 next methods="publickey,password,keyboard-interactive" [preauth]
+9300 2023-07-17 12:04:35.798 debug3: send packet: type 51 [preauth]
+9300 2023-07-17 12:04:38.231 debug3: receive packet: type 50 [preauth]
+9300 2023-07-17 12:04:38.231 debug1: userauth-request for user naras service ssh-connection method password [preauth]
+9300 2023-07-17 12:04:38.231 debug1: attempt 2 failures 1 [preauth]
+9300 2023-07-17 12:04:38.231 debug2: input_userauth_request: try method password [preauth]
+9300 2023-07-17 12:04:38.231 debug3: mm_auth_password: entering [preauth]
+9300 2023-07-17 12:04:38.231 debug3: mm_request_send: entering, type 12 [preauth]
+9300 2023-07-17 12:04:38.231 debug3: mm_auth_password: waiting for MONITOR_ANS_AUTHPASSWORD [preauth]
+9300 2023-07-17 12:04:38.231 debug3: mm_request_receive_expect: entering, type 13 [preauth]
+9300 2023-07-17 12:04:38.231 debug3: mm_request_receive: entering [preauth]
+9300 2023-07-17 12:04:38.231 debug3: mm_request_receive: entering
+9300 2023-07-17 12:04:38.231 debug3: monitor_read: checking request 12
+9300 2023-07-17 12:04:38.656 debug1: Windows authentication failed for user: naras domain: . error: 1326
+9300 2023-07-17 12:04:38.656 debug3: mm_answer_authpassword: sending result 0
+9300 2023-07-17 12:04:38.656 debug3: mm_answer_authpassword: sending result 0
+9300 2023-07-17 12:04:38.656 debug3: mm_request_send: entering, type 13
+9300 2023-07-17 12:04:38.656 Failed password for naras from ::1 port 50538 ssh2
+9300 2023-07-17 12:04:38.656 debug3: mm_auth_password: user not authenticated [preauth]
+9300 2023-07-17 12:04:38.656 debug3: user_specific_delay: user specific delay 0.000ms [preauth]
+9300 2023-07-17 12:04:38.656 debug3: ensure_minimum_time_since: elapsed 425.157ms, delaying 252.296ms (requested 5.293ms) [preauth]
+9300 2023-07-17 12:04:38.909 debug3: userauth_finish: failure partial=0 next methods="publickey,password,keyboard-interactive" [preauth]
+9300 2023-07-17 12:04:38.909 debug3: send packet: type 51 [preauth]
+9300 2023-07-17 12:04:40.640 debug3: recv - from CB ERROR:10054, io:000001C53D1DAB70 [preauth]
+9300 2023-07-17 12:04:40.640 Connection reset by authenticating user naras ::1 port 50538 [preauth]
+9300 2023-07-17 12:04:40.640 debug1: do_cleanup [preauth]
+9300 2023-07-17 12:04:40.642 debug1: monitor_read_log: child log fd closed
+9300 2023-07-17 12:04:40.642 debug3: mm_request_receive: entering
+9300 2023-07-17 12:04:40.642 debug1: do_cleanup
+9300 2023-07-17 12:04:40.642 debug1: Killing privsep child 14312
