@@ -1,0 +1,155 @@
+C:\Windows\System32>ssh localhost -p 22
+naras@localhost's password:
+Permission denied, please try again.
+
+-----------------------------------------------------
+
+32012 2023-07-17 22:04:43.111 debug3: fd 5 is not O_NONBLOCK
+32012 2023-07-17 22:04:43.112 debug3: spawning "C:\\WINDOWS\\System32\\OpenSSH\\sshd.exe" -R as subprocess
+32012 2023-07-17 22:04:43.127 debug3: send_rexec_state: entering fd = 8 config len 345
+32012 2023-07-17 22:04:43.127 debug3: ssh_msg_send: type 0
+32012 2023-07-17 22:04:43.127 debug3: send_rexec_state: done
+32900 2023-07-17 22:04:43.170 debug1: inetd sockets after dupping: 4, 4
+32900 2023-07-17 22:04:43.170 Connection from ::1 port 57656 on ::1 port 22
+32900 2023-07-17 22:04:43.171 debug1: Local version string SSH-2.0-OpenSSH_for_Windows_8.6
+32900 2023-07-17 22:04:43.171 debug1: Remote protocol version 2.0, remote software version OpenSSH_for_Windows_8.6
+32900 2023-07-17 22:04:43.171 debug1: compat_banner: match: OpenSSH_for_Windows_8.6 pat OpenSSH* compat 0x04000000
+32900 2023-07-17 22:04:43.171 debug2: fd 4 setting O_NONBLOCK
+32900 2023-07-17 22:04:43.180 debug3: spawning "C:\\WINDOWS\\System32\\OpenSSH\\sshd.exe" -y as user
+32900 2023-07-17 22:04:43.188 debug2: Network child is on pid 22892
+32900 2023-07-17 22:04:43.188 debug3: send_rexec_state: entering fd = 6 config len 345
+32900 2023-07-17 22:04:43.188 debug3: ssh_msg_send: type 0
+32900 2023-07-17 22:04:43.188 debug3: send_rexec_state: done
+32900 2023-07-17 22:04:43.188 debug3: ssh_msg_send: type 0
+32900 2023-07-17 22:04:43.188 debug3: ssh_msg_send: type 0
+32900 2023-07-17 22:04:43.188 debug3: preauth child monitor started
+32900 2023-07-17 22:04:43.220 debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+32900 2023-07-17 22:04:43.220 debug3: send packet: type 20 [preauth]
+32900 2023-07-17 22:04:43.220 debug1: SSH2_MSG_KEXINIT sent [preauth]
+32900 2023-07-17 22:04:43.220 debug3: receive packet: type 20 [preauth]
+32900 2023-07-17 22:04:43.220 debug1: SSH2_MSG_KEXINIT received [preauth]
+32900 2023-07-17 22:04:43.220 debug2: local server KEXINIT proposal [preauth]
+32900 2023-07-17 22:04:43.220 debug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256 [preauth]
+32900 2023-07-17 22:04:43.220 debug2: host key algorithms: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+32900 2023-07-17 22:04:43.220 debug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+32900 2023-07-17 22:04:43.220 debug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+32900 2023-07-17 22:04:43.220 debug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+32900 2023-07-17 22:04:43.220 debug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+32900 2023-07-17 22:04:43.220 debug2: compression ctos: none,zlib@openssh.com [preauth]
+32900 2023-07-17 22:04:43.220 debug2: compression stoc: none,zlib@openssh.com [preauth]
+32900 2023-07-17 22:04:43.220 debug2: languages ctos:  [preauth]
+32900 2023-07-17 22:04:43.220 debug2: languages stoc:  [preauth]
+32900 2023-07-17 22:04:43.220 debug2: first_kex_follows 0  [preauth]
+32900 2023-07-17 22:04:43.220 debug2: reserved 0  [preauth]
+32900 2023-07-17 22:04:43.220 debug2: peer client KEXINIT proposal [preauth]
+32900 2023-07-17 22:04:43.220 debug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c [preauth]
+32900 2023-07-17 22:04:43.220 debug2: host key algorithms: ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ssh-ed25519@openssh.com,sk-ecdsa-sha2-nistp256@openssh.com,rsa-sha2-512,rsa-sha2-256,ssh-rsa [preauth]
+32900 2023-07-17 22:04:43.220 debug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+32900 2023-07-17 22:04:43.220 debug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com [preauth]
+32900 2023-07-17 22:04:43.220 debug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+32900 2023-07-17 22:04:43.220 debug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1 [preauth]
+32900 2023-07-17 22:04:43.220 debug2: compression ctos: none,zlib@openssh.com,zlib [preauth]
+32900 2023-07-17 22:04:43.220 debug2: compression stoc: none,zlib@openssh.com,zlib [preauth]
+32900 2023-07-17 22:04:43.220 debug2: languages ctos:  [preauth]
+32900 2023-07-17 22:04:43.220 debug2: languages stoc:  [preauth]
+32900 2023-07-17 22:04:43.220 debug2: first_kex_follows 0  [preauth]
+32900 2023-07-17 22:04:43.220 debug2: reserved 0  [preauth]
+32900 2023-07-17 22:04:43.220 debug1: kex: algorithm: curve25519-sha256 [preauth]
+32900 2023-07-17 22:04:43.220 debug1: kex: host key algorithm: ssh-ed25519 [preauth]
+32900 2023-07-17 22:04:43.220 debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+32900 2023-07-17 22:04:43.220 debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+32900 2023-07-17 22:04:43.220 debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+32900 2023-07-17 22:04:43.222 debug3: receive packet: type 30 [preauth]
+32900 2023-07-17 22:04:43.222 debug1: SSH2_MSG_KEX_ECDH_INIT received [preauth]
+32900 2023-07-17 22:04:43.225 debug3: mm_sshkey_sign: entering [preauth]
+32900 2023-07-17 22:04:43.225 debug3: mm_request_send: entering, type 6 [preauth]
+32900 2023-07-17 22:04:43.225 debug3: mm_sshkey_sign: waiting for MONITOR_ANS_SIGN [preauth]
+32900 2023-07-17 22:04:43.225 debug3: mm_request_receive_expect: entering, type 7 [preauth]
+32900 2023-07-17 22:04:43.225 debug3: mm_request_receive: entering [preauth]
+32900 2023-07-17 22:04:43.225 debug3: mm_request_receive: entering
+32900 2023-07-17 22:04:43.225 debug3: monitor_read: checking request 6
+32900 2023-07-17 22:04:43.225 debug3: mm_answer_sign: entering
+32900 2023-07-17 22:04:43.226 debug3: mm_answer_sign: KEX signature 000001E1B407A480(83)
+32900 2023-07-17 22:04:43.226 debug3: mm_request_send: entering, type 7
+32900 2023-07-17 22:04:43.226 debug2: monitor_read: 6 used once, disabling now
+32900 2023-07-17 22:04:43.226 debug3: send packet: type 31 [preauth]
+32900 2023-07-17 22:04:43.226 debug3: send packet: type 21 [preauth]
+32900 2023-07-17 22:04:43.226 debug2: set_newkeys: mode 1 [preauth]
+32900 2023-07-17 22:04:43.226 debug1: rekey out after 134217728 blocks [preauth]
+32900 2023-07-17 22:04:43.226 debug1: SSH2_MSG_NEWKEYS sent [preauth]
+32900 2023-07-17 22:04:43.226 debug1: Sending SSH2_MSG_EXT_INFO [preauth]
+32900 2023-07-17 22:04:43.226 debug3: send packet: type 7 [preauth]
+32900 2023-07-17 22:04:43.226 debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+32900 2023-07-17 22:04:43.231 debug3: receive packet: type 21 [preauth]
+32900 2023-07-17 22:04:43.231 debug1: SSH2_MSG_NEWKEYS received [preauth]
+32900 2023-07-17 22:04:43.231 debug2: set_newkeys: mode 0 [preauth]
+32900 2023-07-17 22:04:43.231 debug1: rekey in after 134217728 blocks [preauth]
+32900 2023-07-17 22:04:43.231 debug1: KEX done [preauth]
+32900 2023-07-17 22:04:43.231 debug3: receive packet: type 5 [preauth]
+32900 2023-07-17 22:04:43.231 debug3: send packet: type 6 [preauth]
+32900 2023-07-17 22:04:43.231 debug3: receive packet: type 50 [preauth]
+32900 2023-07-17 22:04:43.231 debug1: userauth-request for user naras service ssh-connection method none [preauth]
+32900 2023-07-17 22:04:43.231 debug1: attempt 0 failures 0 [preauth]
+32900 2023-07-17 22:04:43.231 debug3: mm_getpwnamallow: entering [preauth]
+32900 2023-07-17 22:04:43.231 debug3: mm_request_send: entering, type 8 [preauth]
+32900 2023-07-17 22:04:43.231 debug3: mm_getpwnamallow: waiting for MONITOR_ANS_PWNAM [preauth]
+32900 2023-07-17 22:04:43.231 debug3: mm_request_receive_expect: entering, type 9 [preauth]
+32900 2023-07-17 22:04:43.231 debug3: mm_request_receive: entering [preauth]
+32900 2023-07-17 22:04:43.231 debug3: mm_request_receive: entering
+32900 2023-07-17 22:04:43.231 debug3: monitor_read: checking request 8
+32900 2023-07-17 22:04:43.231 debug3: mm_answer_pwnamallow: entering
+32900 2023-07-17 22:04:43.232 debug2: parse_server_config_depth: config reprocess config len 345
+32900 2023-07-17 22:04:43.232 debug3: checking match for 'Group administrators' user naras host ::1 addr ::1 laddr ::1 lport 22
+32900 2023-07-17 22:04:43.234 debug3: LsaLogonUser Succeeded (Impersonation: 0)
+32900 2023-07-17 22:04:43.234 debug1: user naras matched group list administrators at line 101
+32900 2023-07-17 22:04:43.234 debug3: match found
+32900 2023-07-17 22:04:43.234 debug3: reprocess config:102 setting AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
+32900 2023-07-17 22:04:43.235 debug3: mm_answer_pwnamallow: sending MONITOR_ANS_PWNAM: 1
+32900 2023-07-17 22:04:43.235 debug3: mm_request_send: entering, type 9
+32900 2023-07-17 22:04:43.235 debug2: monitor_read: 8 used once, disabling now
+32900 2023-07-17 22:04:43.236 debug2: input_userauth_request: setting up authctxt for naras [preauth]
+32900 2023-07-17 22:04:43.236 debug3: mm_inform_authserv: entering [preauth]
+32900 2023-07-17 22:04:43.236 debug3: mm_request_send: entering, type 4 [preauth]
+32900 2023-07-17 22:04:43.236 debug2: input_userauth_request: try method none [preauth]
+32900 2023-07-17 22:04:43.236 debug3: user_specific_delay: user specific delay 0.000ms [preauth]
+32900 2023-07-17 22:04:43.236 debug3: ensure_minimum_time_since: elapsed 4.950ms, delaying 0.343ms (requested 5.293ms) [preauth]
+32900 2023-07-17 22:04:43.236 debug3: mm_request_receive: entering
+32900 2023-07-17 22:04:43.236 debug3: monitor_read: checking request 4
+32900 2023-07-17 22:04:43.236 debug3: mm_answer_authserv: service=ssh-connection, style=
+32900 2023-07-17 22:04:43.236 debug2: monitor_read: 4 used once, disabling now
+32900 2023-07-17 22:04:43.240 debug3: userauth_finish: failure partial=0 next methods="publickey,password,keyboard-interactive" [preauth]
+32900 2023-07-17 22:04:43.240 debug3: send packet: type 51 [preauth]
+32900 2023-07-17 22:04:43.240 debug3: receive packet: type 50 [preauth]
+32900 2023-07-17 22:04:43.240 debug1: userauth-request for user naras service ssh-connection method keyboard-interactive [preauth]
+32900 2023-07-17 22:04:43.240 debug1: attempt 1 failures 0 [preauth]
+32900 2023-07-17 22:04:43.240 debug2: input_userauth_request: try method keyboard-interactive [preauth]
+32900 2023-07-17 22:04:43.240 debug1: keyboard-interactive devs  [preauth]
+32900 2023-07-17 22:04:43.240 debug1: auth2_challenge: user=naras devs= [preauth]
+32900 2023-07-17 22:04:43.240 debug1: kbdint_alloc: devices '' [preauth]
+32900 2023-07-17 22:04:43.240 debug2: auth2_challenge_start: devices  [preauth]
+32900 2023-07-17 22:04:43.240 debug3: user_specific_delay: user specific delay 0.000ms [preauth]
+32900 2023-07-17 22:04:43.240 debug3: ensure_minimum_time_since: elapsed 0.000ms, delaying 5.293ms (requested 5.293ms) [preauth]
+32900 2023-07-17 22:04:43.255 debug3: userauth_finish: failure partial=0 next methods="publickey,password,keyboard-interactive" [preauth]
+32900 2023-07-17 22:04:43.255 debug3: send packet: type 51 [preauth]
+32900 2023-07-17 22:04:45.809 debug3: receive packet: type 50 [preauth]
+32900 2023-07-17 22:04:45.809 debug1: userauth-request for user naras service ssh-connection method password [preauth]
+32900 2023-07-17 22:04:45.809 debug1: attempt 2 failures 1 [preauth]
+32900 2023-07-17 22:04:45.809 debug2: input_userauth_request: try method password [preauth]
+32900 2023-07-17 22:04:45.809 debug3: mm_auth_password: entering [preauth]
+32900 2023-07-17 22:04:45.809 debug3: mm_request_send: entering, type 12 [preauth]
+32900 2023-07-17 22:04:45.809 debug3: mm_auth_password: waiting for MONITOR_ANS_AUTHPASSWORD [preauth]
+32900 2023-07-17 22:04:45.809 debug3: mm_request_receive_expect: entering, type 13 [preauth]
+32900 2023-07-17 22:04:45.809 debug3: mm_request_receive: entering [preauth]
+32900 2023-07-17 22:04:45.809 debug3: mm_request_receive: entering
+32900 2023-07-17 22:04:45.809 debug3: monitor_read: checking request 12
+32900 2023-07-17 22:04:46.236 debug1: Windows authentication failed for user: naras domain: . error: 1326
+32900 2023-07-17 22:04:46.236 debug3: mm_answer_authpassword: sending result 0
+32900 2023-07-17 22:04:46.236 debug3: mm_answer_authpassword: sending result 0
+32900 2023-07-17 22:04:46.236 debug3: mm_request_send: entering, type 13
+32900 2023-07-17 22:04:46.236 Failed password for naras from ::1 port 57656 ssh2
+32900 2023-07-17 22:04:46.236 debug3: mm_auth_password: user not authenticated [preauth]
+32900 2023-07-17 22:04:46.236 debug3: user_specific_delay: user specific delay 0.000ms [preauth]
+32900 2023-07-17 22:04:46.236 debug3: ensure_minimum_time_since: elapsed 427.326ms, delaying 250.127ms (requested 5.293ms) [preauth]
+32900 2023-07-17 22:04:46.501 debug3: userauth_finish: failure partial=0 next methods="publickey,password,keyboard-interactive" [preauth]
+32900 2023-07-17 22:04:46.501 debug3: send packet: type 51 [preauth]
+32900 2023-07-17 22:06:43.181 fatal: Timeout before authentication for ::1 port 57656
