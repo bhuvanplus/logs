@@ -1,3 +1,11 @@
+This log is generated when the following command is run.
+
+C:\Windows\System32>ssh localhost
+naras@localhost's password:
+Permission denied, please try again.
+
+-----------------------------------------------------
+
 24776 2023-07-17 12:04:07.866 debug2: fd 3 setting O_NONBLOCK
 24776 2023-07-17 12:04:07.866 debug3: sock_set_v6only: set socket 3 IPV6_V6ONLY
 24776 2023-07-17 12:04:07.866 debug1: Bind to port 22 on ::.
